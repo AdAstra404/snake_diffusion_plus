@@ -1,0 +1,23 @@
+# 环境
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+
+# 数据
+training_data/
+testset/
+eval/outputs/
+data/*.npy
+out_*.png
+test.png
+
+# 检查点
+checkpoints/*
+!checkpoints/edm_final.pth
+
+# 系统
+.DS_Store
+Thumbs.db
