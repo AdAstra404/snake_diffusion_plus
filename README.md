@@ -1,7 +1,7 @@
 # Snake Diffusion Plus
 
-用扩散模型（EDM）预测贪吃蛇游戏的下一帧画面。使用RTX4060显卡训练50000局，耗时约1000分钟。
-克隆到本地时，推荐使用PyCharm。
+>用扩散模型（EDM）预测贪吃蛇游戏的下一帧画面。使用RTX4060显卡训练50000局，耗时约1000分钟。
+>克隆到本地时，推荐使用PyCharm。
 
 ## 快速开始（无需训练）
 
@@ -9,8 +9,8 @@
 pip install -r requirements.txt
 
 ### 2. 直接玩
-打开根目录控制台，输入.\.venv\Scripts\Activate.ps1
-输入python play.py即可开始游戏
+>打开根目录控制台，输入.\.venv\Scripts\Activate.ps1
+>输入python play.py即可开始游戏
 
 > 预训练权重 `checkpoints/edm_final.pth` 已随仓库提供，无需自行训练。
 > 操作：WASD 控制方向，SPACE 开始，R 重开（需锁定大写键盘）。画面默认每秒一帧，点按方向键可加速
