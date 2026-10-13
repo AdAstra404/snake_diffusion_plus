@@ -9,7 +9,7 @@ __pycache__/
 # 数据
 training_data/
 testset/
-eval/outputs/
+eval/
 data/*.npy
 out_*.png
 test.png
